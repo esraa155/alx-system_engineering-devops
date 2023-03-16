@@ -1,4 +1,5 @@
-find . -empty -printf '%P\n'
+
 
 #!/bin/bash
 find . -empty | rev | cut --delimiter='/' -f1 | rev
+find . -empty -printf '%P\n'
